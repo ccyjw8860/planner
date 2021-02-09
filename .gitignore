@@ -3,10 +3,7 @@
 *.jpg
 *.gif
 *.sqlite3
-db.sqlite3
 ngrok
 uploads/.DS_Store
 uploads/room_photos/.DS_Store
-uploads/room_photos/react-router-1.gif
-uploads/room_photos/react-router-1_h7EY6l4.gif
-uploads/room_photos/withRouter.gif
+
