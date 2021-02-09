@@ -25,7 +25,7 @@ SECRET_KEY = 't^i!kf!%16&kvc@l*oi=5*r-1uo41l3&ts1bij*%wtg3(+10(p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['a5b888221a4b.ngrok.io', '127.0.0.1']
 
 
 # Application definition
@@ -46,7 +46,11 @@ PROJECT_APPS = [
     'todos.apps.TodosConfig'
 ]
 
-INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS
+THIRD_PART_APPS = [
+    'django_seed'
+]
+
+INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PART_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -5,7 +5,7 @@ from . import models
 class CustomUserAdmin(admin.ModelAdmin):
     list_display = ('email',)
     fieldsets = ((
-        'bananana',{'fields':('email',)}
+        'bananana',{'fields':('email','nickname','photo')}
                  ),
     )
 # Register your models here.

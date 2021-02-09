@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from rest_framework.generics import ListAPIView
+from .models import Todo
+from .serializer import TodoSerializer
 
-# Create your views here.
+class TodoView(ListAPIView):
+    queryset = Todo.objects.all()
+    serializer_class = TodoSerializer
+

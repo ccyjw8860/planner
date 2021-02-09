@@ -9,6 +9,8 @@ verify_ssl = true
 django = "==2.2.5"
 djangorestframework = "*"
 pillow = "*"
+django-seed = "*"
+django-limits = "*"
 
 [requires]
 python_version = "3.8"
