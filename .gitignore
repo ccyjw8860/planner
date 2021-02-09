@@ -1,2 +1,5 @@
 .jpg
 .gif
+*.jpg
+*.gif
+*.sqlite3
